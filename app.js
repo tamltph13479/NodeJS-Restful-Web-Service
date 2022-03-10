@@ -18,11 +18,11 @@ const server = http.createServer((req, res) => {
         ];
         res.end(JSON.stringify(products));
     } else {
-        console.log("Chịu không biết");
+        console.log("em biet roi");
     }
 });
 
-const PORT = 3000;
+const PORT = 3001;
 server.listen(PORT, () => {
     console.log("Server is running port", PORT);
 });
